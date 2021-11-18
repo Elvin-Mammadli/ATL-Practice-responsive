@@ -1,0 +1,771 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+    font-size: 62.5%;
+}
+
+/* Header start */
+
+header {
+    height: 70px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+}
+
+header > p.logo {
+    color: #003D2B;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+}
+
+header > nav > ul {
+    display: none;
+}
+
+header > nav > .menu {
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+/* Header end */
+
+/* 1st page start */
+
+div.pg1 {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pg1 .left {
+    width: 50%;
+    height: 70%;
+    background-color: #E4C2B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg1 div.left-container {
+    width: 80%;
+}
+
+.pg1 .left-container > h1 {
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pg1 .left-container > ul > li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 14px 0;
+}
+
+.pg1 .left-container > ul > li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url(./images/done\ icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.pg1 div.left-container > button {
+    background-color: #025F44;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.pg1 div.left-container > p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.pg1 .right {
+    width: 50%;
+    height: 70%;
+    background-color: rgb(214, 163, 101);
+    background-image: url(./images/img1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.pg1 .bottom {
+    height: 30%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.pg1 .bottom > div.card {
+    width: 20%;
+    height: 110px;
+    margin: 0 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-around;
+    align-items: center;
+}
+
+.pg1 .bottom div.card > div.icon {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #E6C1B2;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.pg1 .bottom div.card > div.icon > i {
+    font-size: 1rem;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.pg1 .bottom div.card > h2 {
+    width: 80%;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pg1 .bottom div p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* 1st page end */
+
+/* 2nd page start */
+
+div.pg2 {
+    display: flex;
+}
+
+div.pg2 .left {
+    width: 50%;
+    background-color: #fff;
+    padding: 7rem 0 7rem 7rem;
+}
+
+div.pg2 > .left > .left-container {
+    width: 30vw;
+}
+
+div.pg2 h1 {
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+div.pg2 > .left .left-container p {
+    margin-bottom: 1rem;
+    line-height: 1.9rem;
+}
+
+div.pg2 > .left> .left-container > p,a {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+div.pg2 .right {
+    width: 50%;
+    background-color: #E4C2B1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pg2 .right-white {
+    width: 25vw;
+    padding: 1rem;
+    background-color: white;
+    margin-right: 5rem;
+}
+
+div.pg2 .right-white > ul > li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 14px 0;
+}
+
+div.pg2 .right-white > ul > li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url(./images/done\ icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+div.pg2 .right-white > button {
+    background-color: #025F44;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 10px 21px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+div.pg2 .right-white > p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+/* pg2 bottom */
+
+div.pg2-bottom {
+    background-color: #EFEFEF;
+    height: 50rem;
+    display: flex;
+}
+
+div.pg2-bottom > .left {
+    width: 50%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.pg2-bottom > .left > .bottom-left-container {
+    width: 50%;
+}
+
+div.pg2-bottom > .left > .bottom-left-container > div {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+div.pg2-bottom > .left .icon {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    background-color: #B3BDCC;
+    border-radius: 10px;
+    margin-right: 1rem;
+}
+
+div.pg2-bottom > .left h3 {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.pg2-bottom > .left p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #6A6E6D;
+    letter-spacing: 1px;
+}
+
+div.pg2-bottom > .left li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+div.pg2-bottom > .right {
+    width: 50%;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.pg2-bottom > .right > .bottom-right-container {
+    width: 80%;
+}
+
+div.pg2-bottom > .right > .bottom-right-container h1 {
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+div.pg2-bottom > .right > .bottom-right-container p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* pg3 start */
+
+.pg3 {
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 7rem;
+}
+
+.pg3 h1 {
+    font-size: 2.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.pg3 p {
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #929393;
+}
+
+.pg3 h3 {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 3rem;
+}
+
+
+
+/* pg3 end */
+
+/* pg4 start */
+
+/* app store ratings part start */
+
+div.pg4 > div.store {
+    width: 100%;
+    height: 30vh;
+    background-color: #EFEFEF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.pg4 > div.store img {
+    width: 10rem;
+}
+
+/* app store ratings part end */
+
+/* after store part (until Faq page) start */
+
+div.pg4 > .after-store {
+    width: 100%;
+    display: flex;
+}
+
+/* pg4 left part */
+
+div.pg4 > .after-store > div.left {
+    width: 50%;
+    padding: 8rem 9rem;
+}
+
+div.pg4 > .after-store > .left h1 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
+}
+
+div.pg4 > .after-store > .left p {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 4rem;
+    margin-left: 1.5rem;
+    color: #6A6E6D;
+}
+
+div.pg4 > .after-store > .left .bg-green {
+    width: 250px;
+    height: 200px;
+    background-color: #ADE6BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pg4 > .after-store > .left > .bg-green > img {
+    width: 90%;
+}
+
+/* div right part */
+
+div.pg4 > .after-store > div.right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.pg4 > .after-store > div.right .container {
+    width: 45%;
+}
+
+div.pg4 > .after-store > .right h2 {
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1rem;
+}
+
+div.pg4 > .after-store > .right .container > p:nth-of-type(1) {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+}
+
+div.pg4 > .after-store > .right > .container > .stars i {
+    font-size: 25px;
+    color: #FFC850;
+    margin-bottom: 3rem;
+}
+
+div.pg4 > .after-store > .right .container > p:nth-of-type(2) {
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+    line-height: 3rem;
+}
+
+div.pg4 > .after-store > .right > .container .arrows {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.pg4 > .after-store > .right > .container .arrowg {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/* FAQ start */
+
+div.faq {
+    height: 400px;
+    background-color: #EFEFEF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.faq-container {
+    width: 30vw;
+}
+
+div.faq-questions {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.faq-container > h1 {
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+div.faq-questions > ul > li {
+    list-style-type: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 14px;
+}
+
+div.faq-questions > ul > li::before {
+    content: '';
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-image: url(./images/done\ icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+div.faq-arrows {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 2.5rem;
+}
+
+div.faq-arrows i {
+    margin-top: 17px;
+}
+
+/* pg5 */
+
+div.pg5 {
+    height: 900px;
+}
+
+/* pg5 top */
+
+div.pg5 >.top {
+    height: 300px;
+    background-color: #E4C2B1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.pg5 >.top > h1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+div.pg5 >.top > p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+div.pg5 >.top > .storeImage {
+    text-align: center;
+}
+
+div.pg5 >.top > .storeImage img {
+    width: 300px;
+}
+
+/* pg5 bottom */
+
+div.pg5 > .bottom {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #FFFFFF;
+    padding: 4rem 8rem;
+}
+
+
+
+div.pg5 > .bottom .item1 > ul > li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 3rem;
+}
+
+div.pg5 > .bottom h3 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3rem;
+}
+
+div.pg5 > .bottom .item2 {
+    font-size: 15px;
+}
+
+div.pg5 > .bottom .item2 p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.pg5 > .bottom .item3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.pg5 > .bottom .item3 > h4 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.pg5 > .bottom .item3 > select {
+    padding: 5px 10px;
+    width: 80%;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    border: 1px solid #F0F0F0;
+}
+
+div.pg5 > .bottom .item4 {
+    grid-column: 1 / 4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 2.5rem;
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 900px) {
+    div.pg5 > .bottom {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    div.pg5 > .bottom .item4 {
+        grid-column: 1 / 2;
+    }
+
+    div.pg5 > .bottom .item3 {
+        grid-column: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.pg5 > .bottom .item4 {
+        grid-column: 1 / 3;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.pg4 > div.store {
+        flex-direction: column;
+    }
+
+    div.pg4 > .after-store {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    div.pg4 > .after-store > div.left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.pg4 > .after-store > div.right {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    div.faq-container {
+        width: 60vw;
+    }
+    div.pg5 > .top {
+        padding: 0 5rem;
+        min-height: 50%;
+    }
+
+    div.pg2-bottom > .left > .bottom-left-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.pg2-bottom > .right > .bottom-right-container > p {
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    div.pg2 > .left {
+        padding: 5rem 0;
+    }
+
+    div.pg2 > .left > .left-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.pg2 > .right {
+        width: 100%;
+        height: 60vh;
+    }
+    div.pg2 > .right .right-white {
+        width: 400px;
+        margin: 0;
+        text-align: center;
+    }
+
+    div.pg2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.pg2 .left, .right {
+        width: 100vw;
+    }
+
+    .pg1 .bottom {
+        justify-content: space-between;
+    }
+
+    header > nav > .menu {
+        display: none;
+    }
+
+    header > nav > ul {
+        display: flex;
+        align-items: center;
+    }
+    
+    nav > ul > li {
+        font-size: 1.3rem;
+        margin: 0 3rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        list-style: none;
+    }
+    
+    nav > ul > button {
+        background-color: #025F44;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 10px 21px;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        margin-left: 3rem;
+        font-size: 1.3rem;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .arrow {
+        border: solid black;
+        border-width: 0 1.5px 1.5px 0;
+        display: inline-block;
+        padding: 3px;
+        margin-left: 0.5rem;
+        margin-bottom: 2px;
+        transform: rotate(45deg);
+    }
+
+    .pg3 {
+        height: 900px;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+}

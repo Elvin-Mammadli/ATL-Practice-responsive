@@ -624,102 +624,13 @@ div.pg5 > .bottom .item4 {
     margin-top: 3rem;
 }
 
-@media screen and (max-width: 900px) {
-    div.pg5 > .bottom {
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-    }
-
-    div.pg5 > .bottom .item4 {
-        grid-column: 1 / 2;
-    }
-
-    div.pg5 > .bottom .item3 {
-        grid-column: 1 / 3;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    div.pg5 > .bottom .item4 {
-        grid-column: 1 / 3;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    div.pg4 > div.store {
-        flex-direction: column;
-    }
-
-    div.pg4 > .after-store {
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    div.pg4 > .after-store > div.left {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    div.pg4 > .after-store > div.right {
-        width: 100%;
-        text-align: center;
-        padding-bottom: 4rem;
+@media screen and (max-width: 1000px) {
+    .pg1 .bottom {
+        justify-content: space-between;
     }
 }
 
 @media screen and (min-width: 1000px) {
-    div.faq-container {
-        width: 60vw;
-    }
-    div.pg5 > .top {
-        padding: 0 5rem;
-        min-height: 50%;
-    }
-
-    div.pg2-bottom > .left > .bottom-left-container {
-        width: 90%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    div.pg2-bottom > .right > .bottom-right-container > p {
-        font-size: 1rem;
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    div.pg2 > .left {
-        padding: 5rem 0;
-    }
-
-    div.pg2 > .left > .left-container {
-        width: 100%;
-        text-align: center;
-    }
-
-    div.pg2 > .right {
-        width: 100%;
-        height: 60vh;
-    }
-    div.pg2 > .right .right-white {
-        width: 400px;
-        margin: 0;
-        text-align: center;
-    }
-
-    div.pg2 {
-        flex-direction: column;
-        align-items: center;
-    }
-    div.pg2 .left, .right {
-        width: 100vw;
-    }
-
-    .pg1 .bottom {
-        justify-content: space-between;
-    }
-
     header > nav > .menu {
         display: none;
     }
@@ -759,7 +670,68 @@ div.pg5 > .bottom .item4 {
         margin-bottom: 2px;
         transform: rotate(45deg);
     }
+}
 
+@media screen and (max-width: 900px) {
+    div.pg5 > .bottom {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    div.pg5 > .bottom .item4 {
+        grid-column: 1 / 2;
+    }
+
+    div.pg5 > .bottom .item3 {
+        grid-column: 1 / 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.pg5 > .bottom .item4 {
+        grid-column: 1 / 3;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.pg5 > .top {
+        padding: 0 5rem;
+        min-height: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.faq-container {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.pg4 > .after-store {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    div.pg4 > .after-store > div.left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    div.pg4 > .after-store > div.right {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    div.pg4 > div.store {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
     .pg3 {
         height: 900px;
         flex-direction: column;
@@ -767,5 +739,50 @@ div.pg5 > .bottom .item4 {
         padding: 0;
         align-items: center;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.pg2-bottom > .left > .bottom-left-container {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div.pg2-bottom > .right > .bottom-right-container > p {
+        font-size: 1rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.pg2 > .left {
+        padding: 5rem 0;
+    }
+
+    div.pg2 > .left > .left-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.pg2 > .right {
+        width: 100%;
+        height: 60vh;
+    }
+    div.pg2 > .right .right-white {
+        width: 400px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div.pg2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    div.pg2 .left, .right {
+        width: 100vw;
     }
 }
